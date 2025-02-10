@@ -200,3 +200,84 @@
         font-size: var(--h6);
     }
 }
+
+
+
+
+/* Container styling for the entire section */
+.single-project-info-wrapper-inner {
+    max-width: 1200px;  /* Maximum width for content */
+    margin: 0 auto;     /* Center-align the content */
+    padding: 40px;      /* Padding around the content */
+    background-color: #f9f9f9;  /* Light background color for readability */
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  /* Title styling for each section */
+  h4.title {
+    font-size: 24px;     /* Larger font size for section titles */
+    font-weight: 600;    /* Bold text */
+    color: #333;         /* Dark text color for readability */
+    margin-bottom: 16px; /* Space below titles */
+  }
+  
+  /* For paragraphs under each section */
+  .disc {
+    font-size: 16px;        /* Standard font size for the paragraphs */
+    color: #666;            /* Lighter color for text */
+    line-height: 1.6;       /* Space between lines for readability */
+    margin-bottom: 24px;    /* Space below paragraphs */
+    text-align: justify;    /* Justified text for cleaner alignment */
+  }
+  
+  /* Specific styling for sub-headings with color black */
+  h4[style="color: black;"] {
+    font-size: 20px;     /* Slightly smaller for subheadings */
+    font-weight: 500;    /* Medium weight */
+    color: #000;         /* Black color */
+    margin-top: 20px;    /* Space above the subheading */
+    margin-bottom: 8px;  /* Space below the subheading */
+  }
+  
+  /* Optional: Add spacing if you want to put client and other details section back */
+  .row.g-4 {
+    margin-top: 30px;    /* Add space above the row */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Column styling within the row */
+  .single-project-info {
+    background-color: #fff;   /* White background for info boxes */
+    padding: 15px;             /* Padding for the info box */
+    border-radius: 6px;       /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  }
+  
+  .single-project-info span {
+    font-weight: 600;  /* Bold the labels */
+    color: #333;       /* Dark color for the labels */
+  }
+  
+  .single-project-info p {
+    font-size: 14px;    /* Slightly smaller font size for content */
+    color: #777;        /* Light gray color for the details */
+    margin-top: 5px;    /* Space between label and content */
+  }
+  
+  /* Optional: Make sure the container adapts to mobile screen sizes */
+  @media screen and (max-width: 768px) {
+    .single-project-info-wrapper-inner {
+      padding: 20px;    /* Reduced padding on small screens */
+    }
+  
+    h4.title {
+      font-size: 20px;   /* Smaller font size for titles */
+    }
+  
+    .disc {
+      font-size: 14px;    /* Slightly smaller font size for paragraphs */
+    }
+  }
+  
