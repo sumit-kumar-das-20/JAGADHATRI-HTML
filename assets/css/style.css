@@ -16019,8 +16019,23 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   color: #fff;
 }
 
-.service-content-inner-wrapper {
-  background-image: url(../images/service/02.webp);
+.service-content-inner-wrapper-add1 {
+  background-image: url(../images/service/rail.png);
+  padding: 80px;
+  border-radius: 0 0 10px 10px;
+}
+.service-content-inner-wrapper-add2 {
+  background-image: url(../images/service/road.png);
+  padding: 80px;
+  border-radius: 0 0 10px 10px;
+}
+.service-content-inner-wrapper-add3 {
+  background-image: url(../images/service/govt.png);
+  padding: 80px;
+  border-radius: 0 0 10px 10px;
+}
+.service-content-inner-wrapper-add4 {
+  background-image: url(../images/service/others.png);
   padding: 80px;
   border-radius: 0 0 10px 10px;
 }
