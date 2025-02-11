@@ -12451,12 +12451,19 @@ Copyright (c) 2015 Daniel Eden
 .header-two-wrapper .header-end .nav-btn {
   height: 50px;
   width: 50px;
-  border: 1px solid #141416;
+  /* border: 1px solid #141416; */
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
   cursor: pointer;
+  display: none;
+}
+@media only screen and (max-width: 1199px) {
+  .header-two-wrapper .header-end .nav-btn {
+    display: block;
+    margin-top: 3rem;
+  }
 }
 
 .header-two-main-wrapper {
@@ -22747,6 +22754,7 @@ edit .quantity-edit button {
   padding: 38px 30px;
   border-radius: 10px;
   background: #fff;
+  text-align: center;
 }
 .quick-contact-page-1 .title {
   font-size: 22px;
@@ -29280,8 +29288,28 @@ body[dir=rtl] .why-choose-us-area .vedio-icone .video-play-button span {
 .logo img{
   width: 80px;
 }
+/* .innr{
+  border: 2px solid red;
+  height: 780px;
+} */
+.check-wrapper{
+  /* border: 2px solid red; */
+  height: 620px;
+}
 
+.btn-position-add-st{
+  /* border: 2px solid red; */
+  /* margin-top :29px; */
+}
+ .svg-img {
 
+}
 
-
-
+.card-height-pro{
+  
+   height: fit-content;
+}
+.body-history{
+  border: 1px solid black;
+  min-height: 500px;
+}
