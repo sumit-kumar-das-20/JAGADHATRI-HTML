@@ -22,50 +22,66 @@
     <link rel="stylesheet" preload href="assets/css/style.css">
 </head>
 <style>
- 
-        .hero-image {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-            display: block;
-            filter: brightness(85%);
-        }
-        .content {
-            max-width:95%;
-            margin: 30px auto;
-            background: #ffffff;
-            padding: 40px;
+ .main-container-pro{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+ }
+ .content1 {
+            background: #fff;
+            padding: 30px;
+            margin: 20px;
             border-radius: 12px;
-            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
-        }
-        .content h1 {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
             text-align: center;
-            font-size: 28px;
-            color: #DFC160;
+            
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
             margin-bottom: 20px;
         }
-        .content h2 {
-            border-left: 6px solid #DFC160;
-            padding-left: 16px;
-            font-size: 22px;
-            margin-top: 25px;
-            color: black;
+
+        h2 {
+            color: #444;
+            font-size: 20px;
+            margin-top: 20px;
         }
-        .content p, .content ul, .content ol {
+
+        h3 {
+            color: #555;
             font-size: 18px;
-            line-height: 1.8;
+            margin-top: 15px;
         }
-        .content ul, .content ol {
-            padding-left: 20px;
+
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
         }
-        .content-image {
-            width: 100%;
+
+        .card {
+            background: #fff;
+            padding: 20px;
             border-radius: 10px;
-            margin: 25px 0;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            text-align: left;
         }
-        .content ul li, .content ol li {
+
+        .card h3 {
+            color: #222;
             margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #555;
         }
 </style>
 
@@ -182,54 +198,39 @@
 
 
    
-    <!-- <img src="construction-project.jpg" alt="Construction Project Management" class="hero-image"> -->
-    <div class="content">
-        <h1>Why Excel and WhatsApp Are Not Enough for Running Complex Construction Projects</h1>
-        
-        <h2>Introduction</h2>
-        <p>Construction projects are inherently complex, involving multiple stakeholders, extensive documentation, and strict timelines. Many firms still rely on Excel and WhatsApp for management, but these tools lack the capabilities needed to handle large-scale projects effectively.</p>
-        
-        <h2>The Complexity of Modern Construction Projects</h2>
-        <ul>
-            <li><strong>Numerous Stakeholders:</strong> Collaboration between architects, engineers, contractors, suppliers, and clients.</li>
-            <li><strong>Detailed Plans and Schedules:</strong> Gantt charts, resource allocation, and strict deadlines.</li>
-            <li><strong>Compliance and Documentation:</strong> Meeting legal, safety, and environmental regulations.</li>
-            <li><strong>Dynamic Challenges:</strong> Unexpected changes, weather disruptions, and supply chain issues.</li>
-        </ul>
-        <img src="project-collaboration.jpg" alt="Team Collaboration" class="content-image">
-        
-        <h2>Limitations of Excel in Construction Management</h2>
-        <ol>
-            <li><strong>Lack of Real-Time Collaboration:</strong> Updates must be made manually, causing version control issues.</li>
-            <li><strong>No Integration:</strong> Excel does not connect with accounting, resource management, or BIM software.</li>
-            <li><strong>Error-Prone:</strong> Manual data entry can lead to costly miscalculations.</li>
-            <li><strong>Limited Reporting:</strong> Generating reports requires expertise and is time-consuming.</li>
-        </ol>
-        <img src="excel-limitations.jpg" alt="Excel Spreadsheet Issues" class="content-image">
-        
-        <h2>Limitations of WhatsApp in Construction Management</h2>
-        <ul>
-            <li><strong>Informal Communication:</strong> Important information gets buried in chat threads.</li>
-            <li><strong>No Centralized Repository:</strong> Lack of structured storage for documents and files.</li>
-            <li><strong>Security Concerns:</strong> No enterprise-grade security for sensitive project data.</li>
-            <li><strong>Inefficient Task Management:</strong> No tools for assigning tasks or tracking progress.</li>
-        </ul>
-        <img src="whatsapp-issues.jpg" alt="WhatsApp Communication Problems" class="content-image">
-        
-        <h2>The Case for Specialized Construction Management Software</h2>
-        <p>Construction management software is tailored to industry needs, offering:</p>
-        <ul>
-            <li><strong>Centralized Platforms:</strong> Integrated project management and communication.</li>
-            <li><strong>Real-Time Updates:</strong> Cloud-based tracking for instant project updates.</li>
-            <li><strong>Task Automation:</strong> Automated scheduling, invoicing, and compliance checks.</li>
-            <li><strong>Data Security:</strong> Enterprise-grade security for confidential information.</li>
-            <li><strong>Enhanced Collaboration:</strong> Shared dashboards and real-time document sharing.</li>
-        </ul>
-        <img src="construction-software.jpg" alt="Construction Management Software" class="content-image">
-        
-        <h2>Conclusion</h2>
-        <p>Excel and WhatsApp are useful for basic tasks but lack the robust features needed for managing complex construction projects. Specialized software enhances efficiency, reduces risks, and improves collaboration, giving firms a competitive edge.</p>
-    </div>
+   <div class="main-container-pro">
+    <div class="content1">
+      <h1>Why Excel and WhatsApp Are Not Enough for Running Complex Construction Projects</h1>
+      <div class="card">
+          <h2>Introduction</h2>
+          <p>The construction industry has undergone a massive transformation over the past few decades. From traditional blueprints to sophisticated project management software, the way projects are planned, executed, and monitored has changed dramatically. However, despite the availability of specialized tools, many construction firms still rely heavily on outdated methods such as Microsoft Excel for data management and WhatsApp for communication. This article explores why these tools are inadequate for managing complex construction projects and why modern construction management software is a necessity.</p>
+      </div>
+      <div class="card">
+          <h2>The Limitations of Excel in Construction Management</h2>
+          <h3>Manual Data Entry and Risk of Errors</h3>
+          <p>One of the biggest drawbacks of using Excel in construction management is the reliance on manual data entry. Spreadsheets are prone to human errors, including incorrect data input, miscalculations, and accidental deletions.</p>
+          <h3>Lack of Real-Time Collaboration and Updates</h3>
+          <p>Construction projects involve multiple teams, including architects, engineers, contractors, and suppliers, all working together. However, Excel does not support real-time collaboration efficiently, leading to version control issues and miscommunication.</p>
+      </div>
+      <div class="card">
+          <h2>Why WhatsApp Falls Short for Construction Communication</h2>
+          <h3>Lack of Task Tracking and Accountability</h3>
+          <p>WhatsApp messages get lost in endless chat threads, making it difficult to retrieve important information when needed. It also lacks built-in mechanisms to assign tasks, set deadlines, or monitor progress.</p>
+      </div>
+      <div class="card">
+          <h2>The Need for Specialized Construction Management Software</h2>
+          <h3>Features of an Ideal Construction Management Tool</h3>
+          <p>The ideal tool should offer cloud-based collaboration, automated task scheduling, real-time budgeting, and document management.</p>
+          <h3>Benefits of Using Construction-Specific Software</h3>
+          <p>Switching to dedicated construction management software improves efficiency, reduces errors, and enhances communication among stakeholders.</p>
+      </div>
+      <div class="card">
+          <h2>Conclusion</h2>
+          <p>While Excel and WhatsApp may have their place in simple construction tasks, they are inadequate for managing complex projects. The limitations of these tools lead to inefficiencies, miscommunication, security risks, and financial losses. Modern construction management software provides the necessary features to streamline project workflows, enhance collaboration, and ensure project success.</p>
+      </div>
+  </div>
+   </div>
+  
 
 
 
