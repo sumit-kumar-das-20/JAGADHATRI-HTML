@@ -14939,9 +14939,9 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   background-image: url(../images/banner/breadcrumb-12.webp);
 }
 
-.rts-breadcrumb-area.contact-bd {
+/* .rts-breadcrumb-area.contact-bd {
   background-image: url(../images/banner/Contact\ us_Hero\ section.png);
-}
+} */
 
 
 .demo-1.why-choose-us-area .vedio-icone .video-play-button {
@@ -17297,8 +17297,8 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .rts-breadcrumb-area {
-  background-image: url(../images/banner/ABOUT.jpg);
-  margin: auto;
+  /* background-image: url(../images/banner/ABOUT.jpg); */
+  /* margin: auto;
   height: 500px;
   max-width: 1820px;
   margin: auto;
@@ -17306,7 +17306,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   border-radius: 10px;
   margin-bottom: 19px;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1919px) {
   .rts-breadcrumb-area {
@@ -29312,7 +29312,7 @@ body[dir=rtl] .why-choose-us-area .vedio-icone .video-play-button span {
 }
 .body-history{
   border: 1px solid black;
-  min-height: 500px;
+  min-height: 565px;
 }
 
 
@@ -29355,4 +29355,111 @@ body[dir=rtl] .why-choose-us-area .vedio-icone .video-play-button span {
 .rts-breadcrumb-area.blogdetail1-bd {
   background-image: url(../images/banner/Gallery\ Hero\ banner.jpg);
 }
-
+.rts-banner-area-about-us{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+.rts-breadcrumb-area-servises{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+.rts-breadcrumb-area-gallery{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+.rts-breadcrumb-area-project{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+.rts-breadcrumb-area-contact{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+.rts-breadcrumb-area-railway{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+.rts-breadcrumb-area-highway{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+.rts-breadcrumb-area-bridge{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+.rts-breadcrumb-area-urban{
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
