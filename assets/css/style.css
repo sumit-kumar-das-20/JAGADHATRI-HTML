@@ -29499,3 +29499,15 @@ body[dir=rtl] .why-choose-us-area .vedio-icone .video-play-button span {
   display: flex;
   align-items: center;
 }
+.rts-breadcrumb-area-term {
+  background-image: url(../images/banner/ABOUT.jpg);
+  margin: auto;
+  height: 500px;
+  max-width: 1820px;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
